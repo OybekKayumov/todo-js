@@ -27,11 +27,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://oybekkayumov.github.io/todo-js/)
 
 ### Install
 
-To clone this repo go to "https://github.com/"
+To clone this repo go to "https://github.com/OybekKayumov/todo-js.git"
 
 git clone your repo
 
@@ -47,14 +47,15 @@ Start the Project `$ npm start` - serve the project in browser
 
 👤 **Oybek Kayumov**
 
-- GitHub: [@githubhandle](https://github.com/)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/)
+- GitHub: [@githubhandle](https://github.com/OybekKayumov)
+- Twitter: [@KayumovOybek](https://twitter.com/KayumovOybek)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/oybek-kayumov-54a8485b/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/).
+Feel free to check the [issues page](https://github.com/OybekKayumov/todo-js/issues).
 
 ## Show your support
 
