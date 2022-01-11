@@ -1,15 +1,44 @@
+/* eslint-disable no-unused-vars */
 import _ from 'lodash';
 import './style.css';
 
-function component() {
-  const element = document.createElement('div');
+const list = document.getElementById('list');
 
-  // Lodash, currently included via a script, is required for this line to work
-  // Lodash, now imported by this script
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  element.classList.add('hello');
+const doList = [
+  {
+    id: 0,
+    description: 'Go to the market',
+    completed: false,
+  },
+  {
+    id: 1,
+    description: 'Clean your home',
+    completed: false,
+  },
+  {
+    id: 2,
+    description: 'Programming',
+    completed: false,
+  },
+];
 
-  return element;
-}
+doList.sort((a, b) => a.id - b.id);
 
-document.body.appendChild(component());
+const addToDo = (toDoList) => {
+  for (let id = 0; id < toDoList.length; id += 1) {
+    const item = `
+    <li>
+      
+      <i class="fas fa-check elem-1" id="${doList[id].id}"></i>
+
+      <p class="elem-2">${doList[id].description}</p>
+
+      <i class="fas fa-trash elem-3" id="${doList[id].completed}"></i>
+
+    </li>`;
+
+    list.innerHTML += item;
+  }
+};
+
+addToDo(doList);
