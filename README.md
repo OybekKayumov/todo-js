@@ -47,9 +47,9 @@ Start the Project `$ npm start` - serve the project in browser
 
 👤 **Oybek Kayumov**
 
-- GitHub: [@githubhandle](https://github.com/OybekKayumov)
+- GitHub: [@OybekKayumov](https://github.com/OybekKayumov)
 - Twitter: [@KayumovOybek](https://twitter.com/KayumovOybek)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/oybek-kayumov-54a8485b/)
+- LinkedIn: [Oybek-Kayumov](https://www.linkedin.com/in/oybek-kayumov-54a8485b/)
 
 ## 🤝 Contributing
 
