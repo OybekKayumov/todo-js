@@ -1,44 +1,49 @@
-/* eslint-disable no-unused-vars */
-import _ from 'lodash';
 import './style.css';
 
-const list = document.getElementById('list');
-
-const doList = [
+const listData = [
   {
-    id: 0,
-    description: 'Go to the market',
+    description: 'Clean Home',
     completed: false,
+    index: 0,
   },
   {
-    id: 1,
-    description: 'Clean your home',
+    description: 'Market',
     completed: false,
+    index: 1,
   },
   {
-    id: 2,
     description: 'Programming',
     completed: false,
+    index: 2,
   },
 ];
 
-doList.sort((a, b) => a.id - b.id);
+let listMark = `
+  <div class="row title">
+    <p>Today's To Do</p>
+    <i class="fas fa-sync"></i>
+  </div>
+  <div class="row">
+    <input class="add-input" type="text" placeholder="Add to your list">
+    <i class="fas fa-level-down-alt rotate"></i>
+  </div>
+`;
 
-const addToDo = (toDoList) => {
-  for (let id = 0; id < toDoList.length; id += 1) {
-    const item = `
-    <li>
-      
-      <i class="fas fa-check elem-1" id="${doList[id].id}"></i>
+listData.forEach((listItem) => {
+  listMark += `
+      <div class="row">
+        <input type="checkbox">
+        <p>${listItem.description}</p>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+  `;
+});
 
-      <p class="elem-2">${doList[id].description}</p>
+listMark += `
+    <div class="row clear">
+      <p>Clear All Completed</p>
+    </div>
+`;
 
-      <i class="fas fa-trash elem-3" id="${doList[id].completed}"></i>
-
-    </li>`;
-
-    list.innerHTML += item;
-  }
-};
-
-addToDo(doList);
+const listElement = document.querySelector('.list');
+listElement.innerHTML = listMark;
