@@ -1,0 +1,92 @@
+:root {
+  --white: #fff;
+  --gray: #ebebeb;
+  --text: #1f1f1f;
+  --lato: lato, sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  width: 50%;
+  justify-self: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10px;
+  border-bottom: 1px solid #ddd;
+  font-family: var(--lato);
+  font-size: 1.2em;
+  color: #555;
+}
+
+.row p {
+  flex-basis: 80%;
+}
+
+.add-input p {
+  font-family: var(--lato);
+  font-size: 1.2em;
+  color: #555;
+}
+
+.todos-list li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+.todos-list li p {
+  font-family: var(--lato);
+  font-size: 1.2em;
+  color: #555;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+.add-input {
+  border: none;
+  width: 85%;
+  height: 50px;
+  padding: 0 12px;
+  font-style: italic;
+}
+
+input[type='checkbox'] {
+  transform: scale(1.3);
+}
+
+.clear {
+  text-align: center;
+  background-color: var(--gray);
+}
+
+.list div:last-child {
+  border-bottom: none;
+}
+
+.fas {
+  margin-top: 8px;
+}
