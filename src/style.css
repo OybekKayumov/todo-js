@@ -15,6 +15,10 @@ body {
   justify-content: center;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 .list {
   display: flex;
   flex-direction: column;
