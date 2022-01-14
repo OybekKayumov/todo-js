@@ -5,11 +5,16 @@ export default class DisplayManager {
 
   static displayTask = (parent, task) => {
     const taskDiv = DisplayManager.createHtml(parent, 'div', 'task');
+    taskDiv.dataset.id = task.index;
+
     const taskInput = DisplayManager.createHtml(taskDiv, 'div', 'task_input');
 
     const input = DisplayManager.createHtml(taskInput, 'input');
     input.setAttribute('type', 'checkbox');
     input.setAttribute('class', `task_${task.index}_checkbox`);
+    input.id = `checkbox_task_${task.index}`;
+    input.checked = task.completed;
+    input.dataset.id = task.index;
 
     const input2 = DisplayManager.createHtml(taskInput, 'input');
     input2.setAttribute('type', 'text');

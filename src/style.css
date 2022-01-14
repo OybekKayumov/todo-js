@@ -3,8 +3,8 @@ body {
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
   margin: 0;
-  color: #645f5f;
-  caret-color: rgb(255, 0, 43);
+  color: #645f5f7a;
+  caret-color: rgb(255, 0, 21);
 }
 
 .hidden {
@@ -27,12 +27,13 @@ section {
 .task {
   min-width: 400px;
   max-width: 550px;
+  display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #dcdbdb;
 }
 
 .todo .header {
-  background-color: #dcdbdb;
+  background-color: white;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -81,7 +82,7 @@ select:focus {
   border: 0;
   outline: 0;
   font-size: 14px;
-  color: #222;
+  color: cadetblue;
   line-height: 28px;
   margin-right: 10px;
   transition: background-color 0.5s ease;
@@ -92,11 +93,11 @@ select:focus {
 }
 
 .task:focus-within {
-  background-color: rgb(255, 251, 0);
+  background-color: #ffff0052;
 }
 
 .task:focus-within input {
-  background-color: #888;
+  background-color: #ffff0008;
   transition: background-color 0s ease;
 }
 
