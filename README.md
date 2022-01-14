@@ -2,7 +2,7 @@
 
 # Todo-List
 
-![ToDoListComplete](img/screenshot-todo.png)
+![ToDoListComplete](![image](https://user-images.githubusercontent.com/85465559/149533358-a67b5d5c-85e7-4a95-bf83-05bfaa3ac704.png))
 
 Additional description about the project and its features.
 
