@@ -2,7 +2,7 @@
 
 # Todo-List
 
-![ToDoListComplete](![image](./img/screenshot-todo.PNG)
+![ToDoListComplete](./img/screenshot-todo.PNG)
 
 Additional description about the project and its features.
 
