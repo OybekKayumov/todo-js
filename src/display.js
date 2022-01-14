@@ -11,7 +11,7 @@ export default class DisplayManager {
 
     const input = DisplayManager.createHtml(taskInput, 'input');
     input.setAttribute('type', 'checkbox');
-    input.setAttribute('class', `task_${task.index}_checkbox`);
+    input.setAttribute('class', `task_${task.index}_checkbox checkbox_task`);
     input.id = `checkbox_task_${task.index}`;
     input.checked = task.completed;
     input.dataset.id = task.index;

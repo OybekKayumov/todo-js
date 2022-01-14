@@ -1,10 +1,10 @@
-import Task from './task';
-import StorageManager from './storage';
+import Task from './task.js';
+import StorageManager from './storage.js';
 import StatusManager from './status.js';
 
 export default class TasksManager {
   constructor() {
-    this.tasks = [];
+    this.tasks = StorageManager.load();
   }
 
   getTasks = () => this.tasks.sort((a, b) => a.index - b.index);
