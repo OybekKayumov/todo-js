@@ -9,25 +9,20 @@
   <!-- <link rel="stylesheet" href="./style.css"> -->
 <script defer src="main.js"></script></head>
 <body>
-  <div class="list">
-    <div class="row title">
-        <p>Today's To Do</p>
-        <i class="fas fa-sync"></i>
+  <h1 class="hidden" >To Do List</h1>
+  <!-- <div class="list"></div> -->
+  <section>
+    <div class="todo">
+        <div class="header">
+            <h1>Today's To Do</h1>
+            <i class="fas fa-sync"></i>
+        </div>
+        <div class="add_task"><input type="text" placeholder="add to your list" /><i
+                class="fas fa-level-down-alt rotate"></i></div>
+        <div class="tasks"></div>
+        <div class="footer">Clear all completed</div>
     </div>
-    <div class="row">
-        <input class="add-input" type="text" placeholder="Add to your list">
-        <i class="fas fa-level-down-alt rotate"></i>
-    </div>
-    <div class="row">
-        <input type="checkbox">
-        <p>A task to be done</p>
-        <i class="fas fa-ellipsis-v"></i>
-    </div>
-    
-    <div class="row clear">
-        <p>Clear All Completed</p>
-    </div>
-  </div>
+  </section>
 
   <!-- <script src="index.js"></script> -->
 </body>
