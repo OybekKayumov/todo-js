@@ -2,7 +2,7 @@
 
 # Todo-List
 
-![ToDoListComplete]()
+![ToDoListComplete](./img/screenshot-todo.PNG)
 
 Additional description about the project and its features.
 
@@ -28,7 +28,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-[Live Demo Link](https://oybekkayumov.github.io/todo-js/)
+[Live Demo Link](https://oybekkayumov.github.io/todo-js/dist)
 
 ### Install
 
