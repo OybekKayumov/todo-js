@@ -214,6 +214,7 @@
     "get-symbol-description": "^1.0.0",
     "get-uri": "^3.0.2",
     "getpass": "^0.1.7",
+    "gh-pages": "^3.2.3",
     "glob": "^7.2.0",
     "glob-parent": "^5.1.2",
     "global-dirs": "^3.0.0",
@@ -611,7 +612,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
-    "build": "webpack"
+    "build": "webpack",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -623,5 +625,5 @@
   "bugs": {
     "url": "https://github.com/OybekKayumov/todo-js/issues"
   },
-  "homepage": "https://github.com/OybekKayumov/todo-js#readme"
+  "homepage": "https://github.com/OybekKayumov/todo-js"
 }
